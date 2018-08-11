@@ -1,2 +1,2 @@
 # Nutlogin
-SELFBOT LINE ™❍ざูຮℓמՁஞণ  
+SELFBOT LINE 【さัএπัஞ✵ບิथℓℓҨतΩ】
