@@ -1241,7 +1241,7 @@ def lineBot(op):
 #==============================================================================#
 #==============================================================================#          
                 elif text.lower() == 'แทค':
-                    group = cl.getGroup(to)
+                    group = line.getGroup(to)
                     midMembers = [contact.mid for contact in group.members]
                     midSelect = len(midMembers)//20
                     for mentionMembers in range(midSelect+1):
@@ -1252,8 +1252,8 @@ def lineBot(op):
                                     dataMid.append(dataMention.mid)
                                     no += 1
                                     ret_ += "\n╠ {}. @!".format(str(no))
-                             ret_ += "\n╚══[ จำนวน {} ศพ ]".format(str(len(dataMid)))
-                             cl.sendMention(to, ret_, dataMid)
+                            ret_ += "\n╚══[ จำนวน {} ศพ ]".format(str(len(dataMid)))
+                            line.sendMention(to, ret_, dataMid)
                          
 #===================================================================#              
 
