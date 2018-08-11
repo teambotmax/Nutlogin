@@ -78,8 +78,8 @@ lineMID = line.getProfile().mid
 # kcMID = ke.getProfile().mid
 # bot1 = line.getProfile().mid
 RfuBot=[lineMID]
-Family=["ucc3eaec7bee330c182fbdb2849f252a8",lineMID]
-admin=['ucc3eaec7bee330c182fbdb2849f252a8',lineMID]
+Family=["u4862fe4b182b2fd194a3108e2f3662e8",lineMID]
+admin=['ue1d6a794435130d139f9c5dde19aa9e5','u4862fe4b182b2fd194a3108e2f3662e8',lineMID]
 RfuFamily = RfuBot + Family
 
 protectname = []
@@ -114,16 +114,16 @@ settings = {
     "clock": False,
     "cName":"",
     "cNames":"",
-    "welcome":"ตั้งข้อความคนเข้าด้วยคับพรี้ (｡◕‿◕｡)",
-    "bye":"ตั้งข้อความคนออกด้วยคับพรี้ (｡◕‿◕｡)",
+    "welcome":"สวัสดี พ่อแม่พี่น้อง 😅",
+    "bye":"ออกทำไม ไม่น่าเรย 😭",
     "invite": {},
     "winvite": False,
     "pnharfbot": {},
     "pname": {},
     "pro_name": {},
-    "message":"บัญชีผู้ไช้นี้ ถูกป้องกันโดย VąŁķỳŗįè тєάм ңάĉќ ระบบได้บล็อคคุณ อัตโนมัติ (｡◕‿◕｡)",
-    "comment":"AUTOLIKE В¥.VąŁķỳŗįè тєάм ңάĉќ",
-    "Respontag":"ตั้งข้อความตอบแทคด้วยคับพรี้ (｡◕‿◕｡)",
+    "message":"บัญชีผู้ไช้นี้ ถูกป้องกันโดย 【さัএπัஞ✵ບิथℓℓҨतΩ】 ระบบได้บล็อคคุณ อัตโนมัติ 😢",
+    "comment":"AUTOLIKE BY.【さัএπัஞ✵ບิथℓℓҨतΩ】",
+    "Respontag":"ไอ่หัวดอ 😔",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
@@ -345,7 +345,7 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp =      "  ─┅═✥ŚẾL₣ВΌŦ LÍŇỀ✥═┅─ "+ "  \n" + \
+    myHelp =      "  ─┅═✥【さัএπัஞ✵ບิथℓℓҨतΩ】✥═┅─ "+ "  \n" + \
                   "╔══════════════════ "+ "\n" + \
                   "╠⚛คำสั่ง➠ ชุดคำสั่งที่1 "+ "  \n" + \
                   "╠⚛คำสั่ง2➠ ชุดคำสั่งที่2 "+ "  \n" + \
@@ -359,7 +359,7 @@ def myhelp():
                   "╠⚛Self off ➠ ปิดบอท "+" \n" +\
                   "╠⚛Me ➠ คอทแท็ค "+ "  \n" + \
                   "╠⚛Mid ➠midเรา "+ "  \n" + \
-                  "╠⚛ชื่อ ➠ ชื่อเรา "+ "  \n" + \
+                  "╠⚛แทค ➠ แทคคนทั้งกลุ่ม "+ "  \n" + \
                   "╠⚛ตัส ➠ ตัสเรา "+ "  \n" + \
                   "╠⚛รูป ➠รูปเรา "+ "  \n" + \
                   "╠⚛รูปปก ➠ ปกเรา "+ "  \n" + \
@@ -433,9 +433,9 @@ def myhelp():
                   "╠⚛ปิดลิ้ง ➠ ปิดลิ้งกลุ่ม "+ "  \n" + \
                   "╠⚛ขอลิ้ง "+ "  \n" + \
                   "╠⚛ยกเลิก ➠ ลบค้างเชิญ "+ "  \n" + \
-                  "╠⚛แอบ ➠ ดูคนแอบ "+ " \n" +\
+                  "╠⚛อ่าน ➠ ดูคนแอบ "+ " \n" +\
                   "╠⚛ปิดแอบ ➠ เลิกจับคนแอบ "+ "\n " + \
-                 "╠⚛ไวรัส ➠ ลงไวรัส "+ "  \n" + \
+                  "╠⚛ไวรัส ➠ ลงไวรัส "+ "  \n" + \
                   "╠⚛ทีมบอท ➠Admin "+ "  \n" + \
                   "╠⚛แอด ➠ เช็คแอดกลุ่ม "+ "  \n" + \
                   "╠⚛ไอดีกลุ่ม ➠ เช็คGid "+ "  \n" + \
@@ -679,12 +679,12 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == 'speed':
                     start = time.time()
-                    line.sendMessage(to, "ŚẾL₣ВΌŦ\nŚΡЄЄÐ (｡◕‿◕｡)")
+                    line.sendMessage(to, "【さัএπัஞ✵ບิथℓℓҨतΩ】")
                     elapsed_time = time.time() - start
                     line.sendMessage(to,format(str(elapsed_time)))	
                 elif text.lower() == 'sp':
                     start = time.time()
-                    line.sendMessage(to, "ŚẾL₣ВΌŦ\nŚΡЄЄÐ (｡◕‿◕｡)")
+                    line.sendMessage(to, "【さัএπัஞ✵ບิथℓℓҨतΩ】")
                     elapsed_time = time.time() - start
                     line.sendMessage(to,format(str(elapsed_time)))						
                 elif text.lower() == 'รีบอท':
@@ -695,18 +695,18 @@ def lineBot(op):
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
-                    line.sendMessage(to, "ŚẾL₣ВΌŦ ÒŃLÍŇỀ\n(｡◕‿◕｡)\n {}".format(str(runtime)))
+                    line.sendMessage(to, "【さัএπัஞ✵ບิथℓℓҨतΩ】\n {}".format(str(runtime)))
                 elif text.lower() == 'ข้อมูล':
                     try:
                         arr = []
-                        owner = "u0035a5a6c5ae9d30c9a0992ecbc39395"
+                        owner = "u4862fe4b182b2fd194a3108e2f3662e8"
                         creator = line.getContact(owner)
                         contact = line.getContact(lineMID)
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "\nŚẾL₣ВΌŦ LÍŇỀ"
-                        ret_ = "ŚẾL₣ВΌŦ LÍŇỀ\n(｡◕‿◕｡)"
+                        ret_ = "\n【さัএπัஞ✵ບิथℓℓҨतΩ】"
+                       # ret_ = "【さัএπัஞ✵ບิथℓℓҨतΩ】"
                         ret_ += "\n╠😊ชื่อ ➠ {}".format(contact.displayName)
                         ret_ += "\n╠😊 จำนวนกลุ่ม ➠  {}".format(str(len(grouplist)))
                         ret_ += "\n╠😊จำนวนเพื่อน ➠  {}".format(str(len(contactlist)))
@@ -753,27 +753,27 @@ def lineBot(op):
                 elif "สปีด" == msg.text.lower():
                     line.sendMessage(to,"「ความเร็ว...」\n███▒39%\n██████▒69%\n██████████▒99%\n0.0000000000000000 second")
                     line.sendMessage(to,"0.0000000000000000 second")  
-                    line.sendMessage(to,"(｡◕‿◕｡)")
+                    line.sendMessage(to,"【さัএπัஞ✵ບิथℓℓҨतΩ】")
 #==============================================================================#
                 elif "creator" == msg.text.lower():
-                    line.sendMessage(to,"CREATOR ŚẾL₣ВΌŦ\n(｡◕‿◕｡)")
+                    line.sendMessage(to,"【さัএπัஞ✵ບิथℓℓҨतΩ】\n😈")
                     line.sendContact(to, "u0035a5a6c5ae9d30c9a0992ecbc39395")
                 elif "ไวรัส" == msg.text.lower():
                     line.sendMessage(to, "หยุด ขอให้อยู่ในความสงบ")
                     line.sendContact(to, "ud95860b8e3a6b3d2454cde75d9a5e3ec',")
                 elif "ทีมบอท" == msg.text.lower():
                     msg.contentType = 13
-                    line.sendMessage(to, "CREAROT & ADMIN \nŚẾL₣ВΌŦ (｡◕‿◕｡)")
-                    line.sendContact(to, "u0035a5a6c5ae9d30c9a0992ecbc39395")
-                    line.sendContact(to, "u9e0f538586963f09c59b75648081e9d5")
-                    line.sendContact(to, "ubf4806077f2b20dd22fb3a7072eb0eb8")
-                    line.sendContact(to, "ufec28f9f699a2cb6444e62e5397fe115")
-                    line.sendContact(to, "ue1a44110ed4e82ba603010445f0ba585")
-                    line.sendContact(to, "u6588c368db2307a41862b7385e00f4d8")                    
+                    line.sendMessage(to, "CREAROT & ADMIN \n【さัএπัஞ✵ບิथℓℓҨतΩ】")
+                    line.sendContact(to, "u4862fe4b182b2fd194a3108e2f3662e8")
+                    line.sendContact(to, "ue1d6a794435130d139f9c5dde19aa9e5")
+                   # line.sendContact(to, "ubf4806077f2b20dd22fb3a7072eb0eb8")
+                   # line.sendContact(to, "ufec28f9f699a2cb6444e62e5397fe115")
+                   # line.sendContact(to, "ue1a44110ed4e82ba603010445f0ba585")
+                   # line.sendContact(to, "u6588c368db2307a41862b7385e00f4d8")                    
 #==============================================================================#
                 elif text.lower() == 'เช็ค':
                     try:
-                        ret_ = "      ⚛️การตั้งค่าของคุณ (｡◕‿◕｡)"
+                        ret_ = "การตั้งค่าของคุณ"
 
                         if settings["autoAdd"] == True: ret_ += "\nออโต้บล็อค ➠ เปิด✔"
                         else: ret_ += "\nออโต้บล็อค ➠ ปิด❌"
@@ -1241,63 +1241,23 @@ def lineBot(op):
 #==============================================================================#
 #==============================================================================#          
                 elif text.lower() == 'แทค':
-                            if msg.toType == 0:
-                                sendMention(to, to, "", "")
-                            elif msg.toType == 2:
-                                group = line.getGroup(to)
-                                contact = [mem.mid for mem in group.members]
-                                ct1, ct2, ct3, ct4, ct5, jml = [], [], [], [], [], len(contact)
-                                if jml <= 100:
-                                    mentionMembers(to, contact)
-                                elif jml > 100 and jml <= 200: 
-                                    for a in range(0, 99):
-                                        ct1 += [contact[a]]
-                                    for b in range(100, jml):
-                                        ct2 += [contact[b]]
-                                    mentionMembers(to, ct1)
-                                    mentionMembers(to, ct2)
-                                elif jml > 200 and jml <= 300:
-                                    for a in range(0, 99):
-                                        ct1 += [contact[a]]
-                                    for b in range(100, 199):
-                                        ct2 += [contact[b]]
-                                    for c in range(200, jml):
-                                        ct3 += [contact[c]]
-                                    mentionMembers(to, ct1)
-                                    mentionMembers(to, ct2)
-                                    mentionMembers(to, ct3)
-                                elif jml > 300 and jml <= 400:
-                                    for a in range(0, 99):
-                                        ct1 += [contact[a]]
-                                    for b in range(100, 199):
-                                        ct2 += [contact[b]]
-                                    for c in range(200, 299):
-                                        ct3 += [contact[c]]
-                                    for d in range(300, jml):
-                                        ct4 += [contact[d]]
-                                    mentionMembers(to, ct1)
-                                    mentionMembers(to, ct2)
-                                    mentionMembers(to, ct3)
-                                    mentionMembers(to, ct4)
-                                elif jml > 400 and jml <= 500:
-                                    for a in range(0, 99):
-                                        ct1 += [contact[a]]
-                                    for b in range(100, 199):
-                                        ct2 += [contact[b]]
-                                    for c in range(200, 299):
-                                        ct3 += [contact[c]]
-                                    for d in range(300, 399):
-                                        ct4 += [contact[d]]
-                                    for e in range(400, jml):
-                                        ct4 += [contact[e]]
-                                    mentionMembers(to, ct1)
-                                    mentionMembers(to, ct2)
-                                    mentionMembers(to, ct3)
-                                    mentionMembers(to, ct4)
-                                    mentionMembers(to, ct5)
+                    group = cl.getGroup(to)
+                    midMembers = [contact.mid for contact in group.members]
+                    midSelect = len(midMembers)//20
+                    for mentionMembers in range(midSelect+1):
+                            no = 0
+                            ret_ = "╔══[ ศพที่ถูกข่มขืน ]"
+                            dataMid = []
+                            for dataMention in group.members[mentionMembers*20 : (mentionMembers+1)*20]:
+                                    dataMid.append(dataMention.mid)
+                                    no += 1
+                                    ret_ += "\n╠ {}. @!".format(str(no))
+                             ret_ += "\n╚══[ จำนวน {} ศพ ]".format(str(len(dataMid)))
+                             cl.sendMention(to, ret_, dataMid)
+                         
 #===================================================================#              
 
-                elif text.lower() == 'มอง':
+                elif text.lower() == 'นับ':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -1340,7 +1300,7 @@ def lineBot(op):
                             line.sendMessage(msg.to, "เริ่มนับคนอ่านแบบแทค\n(｡◕‿◕｡)\n" + readTime)
                             
 
-                elif text.lower() == 'ไครอ่าน':
+                elif text.lower() == 'อ่าน':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -3974,7 +3934,7 @@ def lineBot(op):
                          if settings['detectMention'] == True:
                              contact = line.getContact(msg._from)
                              cName = contact.displayName
-                             balas = ["\n " + cName ]
+                             balas = ["【さัএπัஞ✵ບิथℓℓҨतΩ】\n " + cName ]
                              ret_ = "" + random.choice(balas)
                              name = re.findall(r'@(\w+)', msg.text)
                              mention = ast.literal_eval(msg.contentMetadata["MENTION"])
@@ -4020,7 +3980,7 @@ def lineBot(op):
                             pass
                         else:
                             RfuCctv['sidermem'][op.param1] += "\n" + Name
-                            pref=['แอบทมาย ออกมาควยกันมา (｡◕‿◕｡)  ']
+                            pref=['แอบทมาย ออกมาคุยกันมา (｡◕‿◕｡)  ']
                             line.sendMessage(op.param1, str(random.choice(pref))+' '+Name)
                     else:
                         pass
@@ -4050,7 +4010,7 @@ def lineBot(op):
             except:
                 pass
         if op.type == 55:
-            print ("[ VK SELFBOT] ")
+            print ("【さัএπัஞ✵ບิथℓℓҨतΩ】")
             try:
                 if op.param1 in read['readPoint']:
                     if op.param2 in read['readMember'][op.param1]:
